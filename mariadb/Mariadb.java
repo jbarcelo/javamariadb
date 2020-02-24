@@ -30,7 +30,7 @@ public class Mariadb {
             System.out.println("Creating table in given database...");
             stmt = conn.createStatement();
 
-            String sql = "CREATE TABLE REGISTRATION "
+            String sql = "CREATE TABLE REGISTRATION2 "
                     + "(id INTEGER not NULL, "
                     + " first VARCHAR(255), "
                     + " last VARCHAR(255), "
